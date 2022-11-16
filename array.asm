@@ -3,6 +3,7 @@
 section .text
 global CMAIN
 CMAIN:
+    mov rbp, rsp; for correct debugging
     
     ; 배열과 주소
     
